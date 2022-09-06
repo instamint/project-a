@@ -1,10 +1,18 @@
+server:
+  port: 9090
+  address: 0.0.0.0
+  servlet:
+    context-path: /projecta
+  tomcat:
+    uri-encoding: UTF-8
+
 spring:
   jpa:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: "jdbc:postgresql:..."
-    username:
-    password:
+    url: jdbc:postgresql://119.13.102.58:5432/instamint
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver

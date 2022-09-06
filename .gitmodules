@@ -1,0 +1,3 @@
+[submodule "shared-data-model"]
+	path = shared-data-model
+	url = https://github.com/instamint/shared-data-model.git
